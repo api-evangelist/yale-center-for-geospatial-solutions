@@ -1,23 +1,70 @@
 aid: yale-center-for-geospatial-solutions
+
 name: Yale Center for Geospatial Solutions
-description: 'Yale Center for Geospatial Solutions is a company surfaced via the API Evangelist harvest
-  backlog (source: vc-portfolio) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'The Yale Center for Geospatial Solutions (YCGS) is an interdisciplinary research center at Yale University that advances geospatial science and technology. It provides data, tools, and expertise to support transformative research, policy development, and education across environmental, social, and health domains. YCGS collaborates with academic, governmental, and private partners to enable spatial analysis, mapping, and data-driven decision making.'
+
 url: https://raw.githubusercontent.com/api-evangelist/yale-center-for-geospatial-solutions/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-23'
+
 modified: '2026-10-23'
+
 tags:
-- Company
-apis: []
+- Geospatial
+- Research
+- Education
+- Data
+- Yale
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/yale-center-for-geospatial-solutions-hosts.yml
+- type: Vendors
+  url: vendors/yale-center-for-geospatial-solutions-vendors.yml
+- type: Support
+  url: https://cybersecurity.yale.edu/support/request-exception
+- type: PrivacyPolicy
+  url: http://www.yale.edu/privacy-policy
+- type: Newsroom
+  url: https://geospatial.yale.edu/news
+- type: GettingStarted
+  url: https://developers.yale.edu/getting-started
+- type: Documentation
+  url: https://developers.yale.edu/
+- type: DomainSecurity
+  url: security/yale-center-for-geospatial-solutions-domain-security.yml
 - type: Website
   url: https://geospatial.yale.edu/
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: The provider's documentation site is HTML only and no OpenAPI, GraphQL, or other machine‑readable contract was found.
+  evidence:
+    - url: https://geospatial.yale.edu
+      status: 200
+  checked: '2026-10-23'
+x-enrichment:
+  date: '2026-10-23'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

@@ -1,0 +1,16 @@
+generated: '2026-10-23'
+method: none
+source:
+- https://zapier.com/apps/yale-center-for-geospatial-solutions/integrations
+- https://n8n.io/integrations/yale-center-for-geospatial-solutions/
+- https://composio.dev/toolkits/yale-center-for-geospatial-solutions
+- https://monid.ai/tools/yale-center-for-geospatial-solutions
+checked:
+- https://composio.dev/toolkits/yale-center-for-geospatial-solutions
+- https://monid.ai/tools/yale-center-for-geospatial-solutions
+- https://n8n.io/integrations/yale-center-for-geospatial-solutions/
+- https://zapier.com/apps/yale-center-for-geospatial-solutions/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

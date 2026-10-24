@@ -1,0 +1,7 @@
+generated: '2026-10-23'
+method: derived
+source: apis.yml
+deployment:
+  mode: none
+  auth: unknown
+  verified: derived
